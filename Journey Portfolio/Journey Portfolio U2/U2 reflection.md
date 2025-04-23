@@ -1,9 +1,6 @@
 # Unit 2 Reflection: Design
 
-# what I learned
-
---
-
+## what I learned
 This resonated deeply with me. Reflecting on daily life—from smartphone interfaces to public transportation systems
  While I initially associated design with creativity alone, this section highlighted the systematic aspects, such as usability principles, color psychology, and responsive layouts. 
 
