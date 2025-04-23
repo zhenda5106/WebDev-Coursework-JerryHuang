@@ -4,7 +4,6 @@
 In Unit 1, I was introduced to the basics of web development. I learned how to:
 - Create the structure of a web page using HTML (e.g., headings, paragraphs, links)
 - Style the page using CSS (e.g., colors, fonts, layout)
-- Add simple interactivity using JavaScript (e.g., alert messages, button clicks)
 - Use Visual Studio Code (VS Code) as a code editor for building and testing websites
 
 in specific: Learned how to make the font thicker, thinner, italicized, underlined, etc., so basically how to edit text.
