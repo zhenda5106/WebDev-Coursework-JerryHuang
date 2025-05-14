@@ -1,0 +1,95 @@
+/* 页面基础样式 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 标题样式 */
+h1, h2 {
+  color: #4a90e2;
+  text-align: center;
+}
+
+/* 标题装饰 */
+.position-relative {
+  position: relative;
+}
+.position-relative::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #4a90e2;
+  border-radius: 2px;
+}
+
+/* 通用段落和列表 */
+p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* 区块背景 */
+.section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== 使用 display 属性 ===== */
+
+/* 横向并排布局的区块 */
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* 每个卡片 */
+.card {
+  flex: 1;
+  min-width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* 可组合使用 inline-block 以便内容自动适应 */
+  vertical-align: top;
+}
+
+/* 固定底部文字 */
+.footer-box {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffeaa7;
+  padding: 12px 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: #333;
+}

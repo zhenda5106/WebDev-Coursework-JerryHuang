@@ -1,0 +1,81 @@
+/* 页面基础样式 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding-bottom: 60px; /* 给fixed footer留出空间 */
+}
+
+/* 内容居中容器 */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 标题 */
+h1,
+h2 {
+  color: #4a90e2;
+  text-align: center;
+}
+
+/* 文本段落 */
+p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* 列表样式 */
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
+
+/* 每个内容块 */
+.section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== 定位类 ====== */
+
+/* 相对定位用于标题加装饰 */
+.position-relative {
+  position: relative;
+}
+.position-relative::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #4a90e2;
+  border-radius: 2px;
+}
+
+/* 固定底部提示框 */
+.position-fixed {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 底部小提示框样式 */
+.footer-box {
+  background-color: #ffeaa7;
+  padding: 12px 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: #333;
+}
