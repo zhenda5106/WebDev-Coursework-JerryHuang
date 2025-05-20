@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fff7f0, #ffe8e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #fffaf7;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #b25e4f;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #d46a6a;
+    margin-top: 30px;
+    font-size: 1.8em;
+    border-bottom: 2px dashed #f5c6aa;
+    padding-bottom: 6px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul {
+    list-style-type: "🐾 ";
+    padding-left: 25px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 16px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+button#meowButton {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    background-color: #f9c6b4;
+    color: #5b2c27;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button#meowButton:hover {
+    background-color: #f7a88a;
+    transform: scale(1.05);
+}
